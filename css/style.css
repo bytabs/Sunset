@@ -1,0 +1,66 @@
+body{
+    background-image: url("../img/boorado.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.telaLogin{
+    width: 370px;
+    height: 390px;
+    margin: 0 auto;
+    margin-top: 9%;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.perfil{
+    width: 120px;
+    height: 120px;
+    margin-left: 34%;
+    background-color: teal;
+    border-radius: 50%;
+}
+
+.perfil img{
+    width: 120px;
+}
+
+.email{
+    margin-top: 10%;
+    margin-left: 13%;
+    margin-bottom: 3%;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 73%;
+    height: 30px;
+    border: none;
+}
+
+
+.senha{
+    margin-bottom: 10%;
+    margin-left: 13%;
+    border: none;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    width: 73%;
+    height: 30px;
+
+}
+
+.btn-entrar{
+    width: 74%;
+    height: 44px;
+    margin-left: 13%;
+    background-color: #7F006B;
+    border: none;
+    color: white;
+    background-image: linear-gradient(15deg, #F9505C,  #7F006B);
+}
+
+.btn-entrar:hover{
+    border: none;
+    cursor: pointer;
+
+}
